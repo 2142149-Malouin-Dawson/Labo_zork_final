@@ -1,0 +1,16 @@
+C:\Users\dawlo\programmation 1\Labo\Labo_zork_final\bin\Debug\net5.0\Labo_zork_final.exe
+C:\Users\dawlo\programmation 1\Labo\Labo_zork_final\bin\Debug\net5.0\Labo_zork_final.deps.json
+C:\Users\dawlo\programmation 1\Labo\Labo_zork_final\bin\Debug\net5.0\Labo_zork_final.runtimeconfig.json
+C:\Users\dawlo\programmation 1\Labo\Labo_zork_final\bin\Debug\net5.0\Labo_zork_final.runtimeconfig.dev.json
+C:\Users\dawlo\programmation 1\Labo\Labo_zork_final\bin\Debug\net5.0\Labo_zork_final.dll
+C:\Users\dawlo\programmation 1\Labo\Labo_zork_final\bin\Debug\net5.0\ref\Labo_zork_final.dll
+C:\Users\dawlo\programmation 1\Labo\Labo_zork_final\bin\Debug\net5.0\Labo_zork_final.pdb
+C:\Users\dawlo\programmation 1\Labo\Labo_zork_final\obj\Debug\net5.0\Labo_zork_final.csproj.AssemblyReference.cache
+C:\Users\dawlo\programmation 1\Labo\Labo_zork_final\obj\Debug\net5.0\Labo_zork_final.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dawlo\programmation 1\Labo\Labo_zork_final\obj\Debug\net5.0\Labo_zork_final.AssemblyInfoInputs.cache
+C:\Users\dawlo\programmation 1\Labo\Labo_zork_final\obj\Debug\net5.0\Labo_zork_final.AssemblyInfo.cs
+C:\Users\dawlo\programmation 1\Labo\Labo_zork_final\obj\Debug\net5.0\Labo_zork_final.csproj.CoreCompileInputs.cache
+C:\Users\dawlo\programmation 1\Labo\Labo_zork_final\obj\Debug\net5.0\Labo_zork_final.dll
+C:\Users\dawlo\programmation 1\Labo\Labo_zork_final\obj\Debug\net5.0\ref\Labo_zork_final.dll
+C:\Users\dawlo\programmation 1\Labo\Labo_zork_final\obj\Debug\net5.0\Labo_zork_final.pdb
+C:\Users\dawlo\programmation 1\Labo\Labo_zork_final\obj\Debug\net5.0\Labo_zork_final.genruntimeconfig.cache
