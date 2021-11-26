@@ -21,9 +21,9 @@ namespace Labo_zork_final
 
         static void Main(string[] args)
         {
-
+GenerateurClasse generateur =new GenerateurClasse();
             //ton perso
-            Acteur gentil=GenerateurClasses();
+            Acteur gentil=generateur.GenerateurClasses();
             gentil.HP = gentil.MaxHP;
             gentil.Armure = gentil.MaxArmure;
             gentil.AfficherEtat();
