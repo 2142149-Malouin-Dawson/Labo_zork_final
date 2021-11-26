@@ -15,13 +15,12 @@ namespace Labo_zork_final
             int voleur = 0;
             int reponse = 0;
             int i = 0;
-            Acteur hero=DecoderClasse(classe[0]);
             //lecteur1.................................................................................................
             StreamReader lecteur = new StreamReader("question.txt");
             while (!lecteur.EndOfStream)
             {
                 string texte = lecteur.ReadLine();//pose les questions puis decode la classe selon la classe determinee avec les reponses
-                questions[i] = texte;//             au questions
+                questions[i] = texte;//             au questions(a la fin de la methode)
                 Console.WriteLine(questions[i]);
                 reponse = PoserQuestion(questions[i]);
                 if (reponse == 1)
@@ -56,14 +55,25 @@ namespace Labo_zork_final
             i = 0;
             lecteur.Close();
 //...................................................................................................................
+if (guerrier > magicien && guerrier > voleur)
+            {
+                Acteur hero=DecoderClasse(classe[0]);
+                return hero;
+            }
+            else if (magicien > guerrier && magicien > voleur)
+            {
+                Acteur hero=DecoderClasse(classe[1]);
+                return hero;
+            }
+            else 
+            {
+                Acteur hero=DecoderClasse(classe[2]);
+                return hero;
+            }
 
-
-
-
-
-
-            return hero;
         }
+
+
         private Acteur DecoderClasse(string classe)
         {
             //tableau du lecteur
@@ -97,8 +107,6 @@ namespace Labo_zork_final
             double.TryParse(tempo[7], out TauxCritique);
             //acteur
             Acteur temporaire = new Acteur(Nom, Description, MaxHP, MaxArmure, RegenArmure, Agilite, Dommage);
-
-
             return temporaire;
         }
         public int PoserQuestion(string question)

@@ -23,7 +23,7 @@ namespace Labo_zork_final
         {
 
             //ton perso
-            Acteur gentil = new Acteur("Denis", "Denis est un petit enfant", 25, 30, 2, 17, 10);
+            Acteur gentil=GenerateurClasses();
             gentil.HP = gentil.MaxHP;
             gentil.Armure = gentil.MaxArmure;
             gentil.AfficherEtat();
